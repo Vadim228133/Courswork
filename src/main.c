@@ -1,5 +1,5 @@
-#include "read_tariff.c"
-#include "print.c"
+#include "read_tariff.h"
+#include "print.h"
 
 #include <stdio.h>
 #include <stdlib.h>
