@@ -4,8 +4,10 @@
 
 #define ERROR_OPEN_TARIFF_BASE 0b00000001
 
-#define MAX_SIZE_OPERATOR_NAME 10
+#define MAX_SIZE_OPERATOR_NAME 7
 #define MAX_SIZE_TARIFF_NAME 50
+
+#define UNLIMITED -1
 
 #define FILE_NAME "base/tariff_base.txt"
 #define READ_ONLY "r"
