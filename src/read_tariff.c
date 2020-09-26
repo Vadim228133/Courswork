@@ -3,11 +3,11 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-int Fill_Data_Tariff(service** tariff, int* quantity_tariff)
+int Fill_Data_Tariff(const char* file_name, service** tariff, int* quantity_tariff)
 {
     FILE* file = NULL;
     char symbol_buffer = '0';
-    file = fopen(FILE_NAME, READ_ONLY);
+    file = fopen(file_name, READ_ONLY);
     if (file == NULL) {
         MESSEGE_ERROR_OPEN_TARIFF_BASE;
         return ERROR_OPEN_TARIFF_BASE;

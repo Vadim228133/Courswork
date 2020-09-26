@@ -27,6 +27,6 @@ typedef struct service_package {
     int cost;
 } service;
 
-int Fill_Data_Tariff(service** tariff, int* quantity_tariff);
+int Fill_Data_Tariff(const char* file_name, service** tariff, int* quantity_tariff);
 
 #endif
