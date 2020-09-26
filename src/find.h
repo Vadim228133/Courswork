@@ -6,6 +6,7 @@
 
 #define NOT_IMPORTENT 'z'
 
+int Choice_Company(service* preferences, char key_preferences);
 int Equally_Company(
         char* preferences_company,
         char* tariff_company,
